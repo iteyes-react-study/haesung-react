@@ -23,42 +23,42 @@
 - JS 기초
     - 템플릿 리터럴
         
-        <img src="img/Untitled">
+        <img src="img/Untitled.png">
         
     - boolean 연산자
         
-        <img src="img/Untitled%201">
+        <img src="img/Untitled%201.png">
         
     - typeof 연산자
         
-        <img src="img/Untitled%202">
+        <img src="img/Untitled%202.png">
         
     - null 병합 연산자
         
-        <img src="img/Untitled%203">
+        <img src="img/Untitled%203.png">
         
     - 함수 선언식 VS 표현식
         
-        <img src="img/Untitled%204">
+        <img src="img/Untitled%204.png">
         
-        <img src="img/Untitled%205">
+        <img src="img/Untitled%205.png">
         
         - 선언식 : 위치에 상관없이 사용이 가능(코드 실행시 최상단에서 읽힘)
         - 표현식 : 코드 실행시 순서대로 읽힘
     - 화살표 함수
         
-        <img src="img/Untitled%206">
+        <img src="img/Untitled%206.png">
         
     - 콜백함수
         
-        <img src="img/Untitled%207">
+        <img src="img/Untitled%207.png">
         
     - 객체
         - 기본형
             
-            <img src="img/Untitled%208">
+            <img src="img/Untitled%208.png">
             
-            <img src="img/Untitled%209">
+            <img src="img/Untitled%209.png">
             
             - *객체를 상수로 선언해도 그 안에 속성값은 수정 가능*
                 
@@ -66,33 +66,33 @@
                 
         - 객체 내 함수
             
-            <img src="img/Untitled%2010">
+            <img src="img/Untitled%2010.png">
             
         - 객체 내 프로퍼티 재사용법
             
-            <img src="img/Untitled%2011">
+            <img src="img/Untitled%2011.png">
             
     - 배열
         
-        <img src="img/Untitled%2012">
+        <img src="img/Untitled%2012.png">
         
     - 반복문
         
-        <img src="img/Untitled%2013">
+        <img src="img/Untitled%2013.png">
         
     - 배열 내장함수
         - 기본형
             
-            <img src="img/Untitled%2014">
+            <img src="img/Untitled%2014.png">
             
         - 객체형
             
-            <img src="img/Untitled%2015">
+            <img src="img/Untitled%2015.png">
             
         - 정렬
             
-            <img src="img/Untitled%2016">
+            <img src="img/Untitled%2016.png">
             
         - 문자 배열 합치기
             
-            <img src="img/Untitled%2017">
+            <img src="img/Untitled%2017.png">
