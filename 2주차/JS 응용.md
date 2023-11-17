@@ -4,27 +4,27 @@
     - if문에 조건식을 넣지 않아도 JS가 특정 기준으로 값을 참거짓을 판단
         - false : “”, undefined, null, 0, NaN / true : [], {}, 값이 있는 숫자, “a” 문자열
             
-            <img src="JS 응용/Untitled">
+            <img src="./JS 응용/Untitled">
             
     - 활용법
         - 객체 undefined 확인
             
-            <img src="JS 응용/Untitled%201">
+            <img src="./JS 응용/Untitled%201">
             
 
 - 삼항 연산자
     - if문 형태를 줄여서 표현하는 연산자
         
-        <img src="JS 응용/Untitled%202">
+        <img src="./JS 응용/Untitled%202">
         
     - truthy & falsy
         
-        <img src="JS 응용/Untitled%203">
+        <img src="./JS 응용/Untitled%203">
         
     - 조건이 여러개인 경우
         - 가독성이 떨어져 다수의 조건인 경우 if문 사용 권장
         
-        <img src="JS 응용/Untitled%204">
+        <img src="./JS 응용/Untitled%204">
         
     
 - 단락회로 평가
@@ -33,11 +33,11 @@
         - true || true : 앞true 반환 / true || false : 앞true 반환 / false || false : 뒤false 반환
     - Truthy & falsy 이용한 단락회로
         
-        <img src="JS 응용/Untitled%205">
+        <img src="./JS 응용/Untitled%205">
         
         person값이 이미 false 이기 때문에 논리연산자 결과(false)에 따라 undefined가 나온다
         
-        <img src="JS 응용/Untitled%206">
+        <img src="./JS 응용/Untitled%206">
         
         person이 true이기에 단락회로 평가에서 ‘이정환’ 출력
         
@@ -45,43 +45,43 @@
 - 조건문 업그레이드
     - 배열을 이용한 조건 - 단일 파라미터에 여러 조건이 붙는 경우
         
-        <img src="JS 응용/Untitled%207">
+        <img src="./JS 응용/Untitled%207">
         
     - 다수 조건에 따라 다른 결과를 배출하는 경우
         
-        <img src="JS 응용/Untitled%208">
+        <img src="./JS 응용/Untitled%208">
         
 
 - 비 구조화 할당
     - 배열이나 객체에서 원하는 값을 쉽게 추출하는 방법
         
-        <img src="JS 응용/Untitled%209">
+        <img src="./JS 응용/Untitled%209">
         
-        <img src="JS 응용/Untitled%2010">
+        <img src="./JS 응용/Untitled%2010">
         
         배열 안에 변수를 선언해서 매핑
         
     - 할당받지 못한 배열 속 변수에 기본값 설정
         
-        <img src="JS 응용/Untitled%2011">
+        <img src="./JS 응용/Untitled%2011">
         
     - swap : 두 개의 변수 값을 서로 바꿈
         
-        <img src="JS 응용/Untitled%2012">
+        <img src="./JS 응용/Untitled%2012">
         
     - 객체의 비구조 할당 - key 값을 기준으로 할당
         
-        <img src="JS 응용/Untitled%2013">
+        <img src="./JS 응용/Untitled%2013">
         
-        <img src="JS 응용/Untitled%2014">
+        <img src="./JS 응용/Untitled%2014">
         
         key 값의 변수명을 변경하고 싶을 때
         
 - Spread 연산자 - 속성 부분을 …으로 묶어서 펼쳐주는 연산자
     
-    <img src="JS 응용/Untitled%2015">
+    <img src="./JS 응용/Untitled%2015">
     
-    <img src="JS 응용/Untitled%2016">
+    <img src="./JS 응용/Untitled%2016">
     
 
 - 동기 & 비동기
@@ -94,11 +94,11 @@
         - 싱글 쓰레드 방식을 이용하면서, 동기적 작업의 단점을 극복하기 위해 여러개 작업을 동시에 실행
         - 작업이 정상적으로 수행했는지 확인하기 위해, 작업 끝에 콜백 함수를 붙여서 전달
             
-            <img src="JS 응용/Untitled%2017">
+            <img src="./JS 응용/Untitled%2017">
             
         - 코드
             
-            <img src="JS 응용/Untitled%2018">
+            <img src="./JS 응용/Untitled%2018">
             
     - JS Engine
         - 자바스크립트로 작성한 코드들은 웹브라우저에 탑재되어 있는 자바스크립트 엔진을 이용해서 해석되고 실행
@@ -112,21 +112,21 @@
         - 자바스크립트는 콜스택이 하나이기 때문에 Thread가 1개임
         - 비동기 방식의 콜스택
             
-            <img src="JS 응용/Untitled%2019">
+            <img src="./JS 응용/Untitled%2019">
             
-            <img src="JS 응용/Untitled%2020">
+            <img src="./JS 응용/Untitled%2020">
             
-            <img src="JS 응용/Untitled%2021">
+            <img src="./JS 응용/Untitled%2021">
             
-            <img src="JS 응용/Untitled%2022">
+            <img src="./JS 응용/Untitled%2022">
             
-            <img src="JS 응용/Untitled%2023">
+            <img src="./JS 응용/Untitled%2023">
             
             이후 cb과 Main Context가 순차적으로 나감
             
     - 콜백지옥
         
-        <img src="JS 응용/Untitled%2024">
+        <img src="./JS 응용/Untitled%2024">
         
         - 해결법 : 비동기 담당 객체(Promise) 사용
 - Promise - 콜백 지옥에서 탈출
@@ -136,15 +136,15 @@
         - Rejected(실패) : 비동기 작업이 어떠한 이유로 실패한 상태(서버 무반응, 타임아웃 등)
     - 코드
         
-        <img src="JS 응용/Untitled%2025">
+        <img src="./JS 응용/Untitled%2025">
         
     - 응용
         
-        <img src="JS 응용/Untitled%2026">
+        <img src="./JS 응용/Untitled%2026">
         
     - Promise 장점
         
-        <img src="JS 응용/Untitled%2027">
+        <img src="./JS 응용/Untitled%2027">
         
         중간에 작업을 끼워 넣을 수 있다
         
@@ -152,28 +152,28 @@
 - async & await - 직관적인 비동기 처리 코드 작성
     - async : 함수를 Promise로 자동 반환하는 비동기 처리 코드
         
-        <img src="JS 응용/Untitled%2028">
+        <img src="./JS 응용/Untitled%2028">
         
     - await : 비동기 함수에 붙일 경우 마치 동기 처리처럼 동작해서 작업이 수행될 때까지 다음 동작을 하지 않는다 (async와 같이 사용됨)
         
-        <img src="JS 응용/Untitled%2029">
+        <img src="./JS 응용/Untitled%2029">
         
 
 - API 호출
     - Application Programming Interface - 응용프로그램 프로그래밍 인터페이스
     - 응용프로그램에서 사용할 수 있도록 운영체제나 프로그래밍 언어가 제공하는 기능을 제어할 수 있게 만든 인터페이스를 뜻함
         
-        <img src="JS 응용/Untitled%2030">
+        <img src="./JS 응용/Untitled%2030">
         
     - API 호출은 사용자 환경에 따라 처리시간이 상이하므로 동기방식이 아닌 Promise 객체를 이용한 비동기방식을 사용한다.
     - fetch : 자바스크립트에서 api를 호출할 수 있도록 해주는 내장함수
     - 호출(기본)
         - 응답은 포장지 형태의 상태값으로 출력 (추출 필요)
             
-            <img src="JS 응용/Untitled%2031">
+            <img src="./JS 응용/Untitled%2031">
             
     - async & await을 이용한 호출
         
-        <img src="JS 응용/Untitled%2032">
+        <img src="./JS 응용/Untitled%2032">
         
     -
